@@ -49,7 +49,7 @@
     <operation><![CDATA[{$params.object_id}ZDS/{$params.object_id}]]></operation>
   </command>
   <command name="CONSTRAINT">
-    <operation><![CDATA[AA]]></operation>
+    <operation><![CDATA[]]></operation>
   </command>
   <command name="DELETE"/>
   <command name="LIST"/>
