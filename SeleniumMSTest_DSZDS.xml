@@ -48,7 +48,9 @@
   <command name="UPDATE">
     <operation><![CDATA[{$params.object_id}ZDS/{$params.object_id}]]></operation>
   </command>
-  <command name="CONSTRAINT"/>
+  <command name="CONSTRAINT">
+    <operation><![CDATA[AA]]></operation>
+  </command>
   <command name="DELETE"/>
   <command name="LIST"/>
 </ObjectDefinition>
