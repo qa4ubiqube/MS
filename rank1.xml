@@ -44,7 +44,7 @@
   </command>
   <command name="UPDATE"/>
   <command name="CONSTRAINT">
-    <operation><![CDATA[bb]]></operation>
+    <operation><![CDATA[]]></operation>
   </command>
   <command name="CREATE"/>
   <command name="DELETE"/>
