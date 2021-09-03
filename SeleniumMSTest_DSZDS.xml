@@ -40,7 +40,9 @@
   <command name="CREATE"/>
   <command name="READ"/>
   <command name="UPDATE"/>
-  <command name="CONSTRAINT"/>
+  <command name="CONSTRAINT">
+    <operation><![CDATA[AAA]]></operation>
+  </command>
   <command name="DELETE"/>
   <command name="LIST"/>
 </ObjectDefinition>
