@@ -3,11 +3,11 @@
     <map>
         <entry>
             <key>DISPLAYNAME</key>
-            <value>msBadManMod</value>
+            <value>DontUseThisMS.xml</value>
         </entry>
         <entry>
             <key>DATE_MODIFICATION</key>
-            <value>1634803835175</value>
+            <value>1634808368228</value>
         </entry>
         <entry>
             <key>REPOSITORY</key>
@@ -15,31 +15,21 @@
         </entry>
         <entry>
             <key>DATE_CREATION</key>
-            <value>1634803835166</value>
+            <value>1634808368225</value>
+        </entry>
+        <entry>
+            <key>TAG</key>
         </entry>
         <entry>
             <key>FILE_TYPE</key>
             <value>text</value>
         </entry>
         <entry>
-            <key>TAG</key>
-            <value>string</value>
-        </entry>
-        <entry>
-            <key>MODEL</key>
-            <value>160202029999</value>
-        </entry>
-        <entry>
-            <key>MANUFACTURER</key>
-            <value>160202029999</value>
-        </entry>
-        <entry>
             <key>TYPE</key>
-            <value>FILE</value>
+            <value>UPLOAD</value>
         </entry>
         <entry>
             <key>COMMENT</key>
-            <value>string</value>
         </entry>
     </map>
 </metadata>
