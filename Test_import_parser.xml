@@ -30,7 +30,10 @@
     </variable>
   </variables>
   <example>
-    <content>interface Serial2/3/0.1/3/6/1:0</content>
+    <content>!
+interface Serial2/3/0.1/3/6/1:0
+    description SAO PAULO
+!</content>
   </example>
   <command name="IMPORT">
     <operation><![CDATA[cat /home/msa/multilevel_configuration.txt]]></operation>
