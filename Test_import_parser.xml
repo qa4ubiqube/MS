@@ -54,117 +54,16 @@
     </variable>
   </variables>
   <example>
-    <content>level1 A
-  level2 A1
-    level3 AA1_1
-      do not catch_AA1_1
-      data3 AA1_1_data1
-      data3 AA1_1_data2
-    level3 AA1_2
-  level2 A2
-    data2 AA2_data1
-    do not catch_AA2_1
-    level3 AA2_1
-    level3 AA2_2
-      do not catch_AA2_2_1
-      level4 AA2_2_1
-        data4 AA2_2_1_data1
-    level3 AA2_3
-      data3 AA2_3_data1
-level1 B
-    simple data B_data1
-    level2 B1
-      data2 BB1_data1
-level1 C
-    data1 C_data1
-    level2 C1
-      data2 CC1_data1
-    level2 C2
-      level3 CC2_1</content>
+    <content>interface Serial2/3/0.1/3/6/1:0</content>
   </example>
   <command name="IMPORT">
     <operation><![CDATA[cat /home/msa/multilevel_configuration.txt]]></operation>
     <parser>
       <section>
-        <regexp>@^\s*level1\s+(?&lt;object_id&gt;\S+).*$@</regexp>
+        <regexp>@^\s*interface\s+(?&lt;object_id&gt;\S+).*$@</regexp>
         <xpath/>
       </section>
       <lines>
-        <line>
-          <array/>
-          <regexp>@^\s+simple\s+data\s+(?&lt;simple_data&gt;\S+).*$@</regexp>
-          <xpath/>
-        </line>
-        <line>
-          <array name="level1_data">
-            <regexp>@^\s+data1\s+(?&lt;data1&gt;\S+).*$@</regexp>
-          </array>
-          <regexp/>
-          <xpath/>
-        </line>
-        <line>
-          <array name="level1">
-            <lines>
-              <line>
-                <array name="level2_data">
-                  <regexp>@^\s+data2\s+(?&lt;data2&gt;\S+).*$@</regexp>
-                </array>
-                <regexp/>
-                <xpath/>
-              </line>
-              <line>
-                <array name="level2">
-                  <lines>
-                    <line>
-                      <array name="level3_data">
-                        <regexp>@^\s+data3\s+(?&lt;data3&gt;\S+).*$@</regexp>
-                      </array>
-                      <regexp/>
-                      <xpath/>
-                    </line>
-                    <line>
-                      <array name="level3">
-                        <lines>
-                          <line>
-                            <array name="level4_data">
-                              <regexp>@^\s+data4\s+(?&lt;data4&gt;\S+).*$@</regexp>
-                            </array>
-                            <regexp/>
-                            <xpath/>
-                          </line>
-                        </lines>
-                        <lines>
-                          <ignore>
-                            <regexp>@^\s+do\s+not\s+catch.*$@</regexp>
-                          </ignore>
-                        </lines>
-                        <regexp>@^\s+level4\s+(?&lt;level4_name&gt;\S+).*$@</regexp>
-                      </array>
-                      <regexp/>
-                      <xpath/>
-                    </line>
-                  </lines>
-                  <lines>
-                    <ignore>
-                      <regexp>@^\s+do\s+not\s+catch.*$@</regexp>
-                    </ignore>
-                  </lines>
-                  <regexp>@^\s+level3\s+(?&lt;level3_name&gt;\S+).*$@</regexp>
-                </array>
-                <regexp/>
-                <xpath/>
-              </line>
-            </lines>
-            <lines>
-              <ignore>
-                <regexp>@^\s+do\s+not\s+catch.*$@</regexp>
-              </ignore>
-            </lines>
-            <regexp>@^\s+level2\s+(?&lt;level2_name&gt;\S+).*$@</regexp>
-          </array>
-          <regexp/>
-          <xpath/>
-        </line>
         <ignore>
           <regexp>@^\s+do\s+not\s+catch.*$@</regexp>
         </ignore>
