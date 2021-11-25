@@ -36,7 +36,7 @@
     <operation><![CDATA[cat /home/msa/multilevel_configuration.txt]]></operation>
     <parser>
       <section>
-        <regexp>@^\s*interface\s+(?&lt;object_id&gt;\S+).*$@</regexp>
+        <regexp>@^\s*interface\s+(?&lt;interface&gt;\S+).*$@</regexp>
         <xpath/>
       </section>
       <lines>
