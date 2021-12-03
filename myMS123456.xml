@@ -30,7 +30,6 @@
         <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="true" visible="true" displayName="new_var0" displayOrder="0" maxLength="100" isMandatory="false" isUserLocked="false" name="params.new_var0" selectorValue="selector_val1" startIncrement="0" type="String"/>
         <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="true" visible="true" displayName="new_var2" displayOrder="0" maxLength="100" isMandatory="false" isUserLocked="false" name="params.new_var2" selectorValue="selector_val1" startIncrement="0" type="String"/>
       </behaviors>
-      <repositories/>
       <sections/>
       <classes>
         <class>string</class>
@@ -43,7 +42,6 @@
         <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="true" visible="true" displayName="new_var0" displayOrder="0" maxLength="100" isMandatory="false" isUserLocked="false" name="params.new_var0" selectorValue="selector_val1" startIncrement="0" type="String"/>
         <behaviour arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" editable="true" visible="true" displayName="new_var2" displayOrder="0" maxLength="100" isMandatory="false" isUserLocked="false" name="params.new_var2" selectorValue="selector_val1" startIncrement="0" type="String"/>
       </behaviors>
-      <repositories/>
       <sections/>
       <classes>
         <class>string</class>
