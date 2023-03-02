@@ -26,6 +26,7 @@
   </information>
   <variables frozen="0">
     <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
+    <variable displayName="stack_status" name="params.stack_status" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
   </variables>
   <example>
     <content>sampletext</content>
@@ -34,8 +35,39 @@
     <parser>
       <section>
         <regexp>@^\s \s*$@</regexp>
+        <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+        <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+        <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+        <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+        <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+        <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
       </section>
-      <lines/>
+      <lines>
+        <line>
+          <array/>
+          <regexp>@&lt;hostname&gt;(&lt;hostname&gt;.*)&lt;hostname&gt;@</regexp>
+          <xpath/>
+        </line>
+        <line>
+          <array/>
+          <regexp>@&lt;nodeindex&gt;(&lt;nodeindex&gt;.*)&lt;nodeindex&gt;@</regexp>
+          <xpath/>
+        </line>
+        <line>
+          <array/>
+          <regexp>@&lt;stack_status&gt;(?&lt;stack_status&gt;.*)&lt;/stack_statu@</regexp>
+          <xpath/>
+        </line>
+        <ignore>
+          <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+        </ignore>
+        <ignore>
+          <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+        </ignore>
+        <ignore>
+          <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
+        </ignore>
+      </lines>
     </parser>
   </command>
   <command name="CREATE">
