@@ -58,6 +58,11 @@
           <regexp>@&lt;stack_status&gt;(?&lt;stack_status&gt;.*)&lt;/stack_statu@</regexp>
           <xpath/>
         </line>
+        <line>
+          <array name="default_name"/>
+          <regexp/>
+          <xpath/>
+        </line>
         <ignore>
           <regexp>@^(?&lt;variable_name&gt;.*)$@</regexp>
         </ignore>
