@@ -15,7 +15,7 @@
     <maxInstances>0</maxInstances>
     <relatedObjects/>
     <name>SeleniumMSTestMSL_byManager</name>
-    <group>Default</group>
+    <group>Default|MSLMgrAllRights</group>
     <importonce>false</importonce>
     <importrank>1</importrank>
     <reorderinstances>false</reorderinstances>
