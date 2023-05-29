@@ -35,7 +35,13 @@
       <section>
         <regexp>@^\s \s*$@</regexp>
       </section>
-      <lines/>
+      <lines>
+        <line>
+          <array name="default_name"/>
+          <regexp/>
+          <xpath/>
+        </line>
+      </lines>
     </parser>
   </command>
   <command name="CREATE">
