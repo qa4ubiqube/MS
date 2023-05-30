@@ -6,7 +6,7 @@
     <serviceTaskType/>
     <order>0</order>
     <visibility>5</visibility>
-    <configType/>
+    <configType>cli</configType>
     <createTemplateId/>
     <createTemplateObject/>
     <defaultDisplay>false</defaultDisplay>
@@ -14,7 +14,7 @@
     <importIfMandatoryPresent>false</importIfMandatoryPresent>
     <maxInstances>0</maxInstances>
     <relatedObjects/>
-    <name>updatedName</name>
+    <name>myMS123456</name>
     <group>Default</group>
     <importonce>false</importonce>
     <importrank>0</importrank>
@@ -133,4 +133,17 @@
   <example>
     <content>none</content>
   </example>
+  <command name="IMPORT">
+    <operation><![CDATA[]]></operation>
+    <parser>
+      <section/>
+      <lines/>
+    </parser>
+  </command>
+  <command name="CREATE"/>
+  <command name="READ"/>
+  <command name="UPDATE"/>
+  <command name="CONSTRAINT"/>
+  <command name="DELETE"/>
+  <command name="LIST"/>
 </ObjectDefinition>
