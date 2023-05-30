@@ -42,7 +42,9 @@
   <command name="READ">
     <output><![CDATA[{$object_id}]]></output>
   </command>
-  <command name="UPDATE"/>
+  <command name="UPDATE">
+    <operation><![CDATA[{$params.object_id}ZYS/{$params.object_id}]]></operation>
+  </command>
   <command name="CONSTRAINT"/>
   <command name="DELETE"/>
   <command name="LIST">
