@@ -31,12 +31,16 @@
   <example/>
   <command name="IMPORT">
     <parser>
-      <section/>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+      </section>
       <lines/>
     </parser>
   </command>
   <command name="CREATE"/>
-  <command name="READ"/>
+  <command name="READ">
+    <output><![CDATA[{$object_id}]]></output>
+  </command>
   <command name="UPDATE"/>
   <command name="CONSTRAINT"/>
   <command name="DELETE"/>
