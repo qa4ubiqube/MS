@@ -37,7 +37,9 @@
       <lines/>
     </parser>
   </command>
-  <command name="CREATE"/>
+  <command name="CREATE">
+    <operation><![CDATA[touch ./ZYS/{$params.object_id}]]></operation>
+  </command>
   <command name="READ">
     <output><![CDATA[{$object_id}]]></output>
   </command>
