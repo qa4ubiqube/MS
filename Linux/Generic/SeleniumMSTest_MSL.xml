@@ -16,7 +16,7 @@
     <maxInstances>0</maxInstances>
     <relatedObjects/>
     <name>SeleniumMSTest_MSL</name>
-    <group>Default</group>
+    <group>Default|ncroot</group>
     <importonce>false</importonce>
     <importrank>1</importrank>
     <reorderinstances>false</reorderinstances>
