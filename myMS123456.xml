@@ -5,7 +5,7 @@
     <displayField>none</displayField>
     <order>0</order>
     <visibility>5</visibility>
-    <configType>cli</configType>
+    <configType/>
     <createTemplateId/>
     <createTemplateObject/>
     <defaultDisplay>false</defaultDisplay>
@@ -15,7 +15,7 @@
     <relatedObjects/>
     <msDirectoryName/>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
-    <name>myMS123456</name>
+    <name>updatedName</name>
     <group>Default</group>
     <importonce>false</importonce>
     <importrank>0</importrank>
@@ -134,17 +134,4 @@
   <example>
     <content>none</content>
   </example>
-  <command name="IMPORT">
-    <operation><![CDATA[]]></operation>
-    <parser>
-      <section/>
-      <lines/>
-    </parser>
-  </command>
-  <command name="CREATE"/>
-  <command name="READ"/>
-  <command name="UPDATE"/>
-  <command name="CONSTRAINT"/>
-  <command name="DELETE"/>
-  <command name="LIST"/>
 </ObjectDefinition>
