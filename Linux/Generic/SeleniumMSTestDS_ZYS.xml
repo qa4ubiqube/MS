@@ -44,5 +44,7 @@
   <command name="UPDATE"/>
   <command name="CONSTRAINT"/>
   <command name="DELETE"/>
-  <command name="LIST"/>
+  <command name="LIST">
+    <output><![CDATA[{$object_id}]]></output>
+  </command>
 </ObjectDefinition>
