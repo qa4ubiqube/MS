@@ -3,10 +3,8 @@
     <icon>none</icon>
     <description>Description for MS created</description>
     <displayField>object_id</displayField>
-    <serviceTaskType/>
     <order>0</order>
     <visibility>5</visibility>
-    <msDirectoryName/>
     <configType>cli</configType>
     <createTemplateId/>
     <createTemplateObject/>
@@ -15,6 +13,8 @@
     <importIfMandatoryPresent>false</importIfMandatoryPresent>
     <maxInstances>0</maxInstances>
     <relatedObjects/>
+    <msDirectoryName/>
+    <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
     <name>SeleniumMSTest_MSL_DASearch</name>
     <group>Default</group>
     <importonce>false</importonce>
