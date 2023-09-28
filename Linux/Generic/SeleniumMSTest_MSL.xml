@@ -16,7 +16,7 @@
     <msDirectoryName></msDirectoryName>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
     <name>SeleniumMSTest_MSL</name>
-    <group>Default</group>
+    <group>Default|ncroot</group>
     <importonce>false</importonce>
     <importrank>1</importrank>
     <reorderinstances>false</reorderinstances>
@@ -39,8 +39,8 @@
       <lines>
         <line>
           <array name="default_name"/>
-          <regexp/>
-          <xpath/>
+          <regexp></regexp>
+          <xpath></xpath>
         </line>
       </lines>
     </parser>
