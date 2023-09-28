@@ -16,7 +16,7 @@
     <msDirectoryName></msDirectoryName>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
     <name>SeleniumMSTestMSL_byAdmin</name>
-    <group>Default</group>
+    <group>Default|MSLAdmin</group>
     <importonce>false</importonce>
     <importrank>1</importrank>
     <reorderinstances>false</reorderinstances>
