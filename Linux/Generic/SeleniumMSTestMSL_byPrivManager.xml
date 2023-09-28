@@ -16,7 +16,7 @@
     <msDirectoryName></msDirectoryName>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
     <name>SeleniumMSTestMSL_byPrivManager</name>
-    <group>Default</group>
+    <group>Default|MSLPrivMgr</group>
     <importonce>false</importonce>
     <importrank>1</importrank>
     <reorderinstances>false</reorderinstances>
