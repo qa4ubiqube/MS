@@ -5,15 +5,15 @@
     <displayField>object_id</displayField>
     <order>0</order>
     <visibility>5</visibility>
-    <wfConstraintsPath/>
+    <wfConstraintsPath></wfConstraintsPath>
     <configType>cli</configType>
-    <createTemplateId/>
-    <createTemplateObject/>
+    <createTemplateId></createTemplateId>
+    <createTemplateObject></createTemplateObject>
     <defaultDisplay>false</defaultDisplay>
     <dynamic>false</dynamic>
     <importIfMandatoryPresent>false</importIfMandatoryPresent>
     <maxInstances>0</maxInstances>
-    <relatedObjects/>
+    <relatedObjects></relatedObjects>
     <retainIfImportIsEmpty>false</retainIfImportIsEmpty>
     <name>testing</name>
     <group>Default</group>
@@ -24,7 +24,11 @@
     <sortauto>false</sortauto>
     <sortnumerical>false</sortnumerical>
     <sortvariable>params._order</sortvariable>
-    <directoryNames/>
+    <directoryNames>
+      <directoryName>dsada</directoryName>
+      <directoryName>dsa</directoryName>
+      <directoryName>dsadada</directoryName>
+    </directoryNames>
   </information>
   <variables frozen="0">
     <variable displayName="object_id" name="params.object_id" startIncrement="0" type="String" mandatoryArray="false" visible="true" description="" groupSeparator="" groupDisplayName="" maxLength="100" displayOrder="0" increment="0" refServiceURI="" keepOnImport="false" editable="false" uniqueItemsInDropDownList="false" onlyDetailView="false" createOnlyView="false" localVarNameMatch="" remoteVarNameMatch="" localVarToFilter="" remoteVarToFilter="" remoteVarValueToFilter="" arrayCanAdd="true" arrayCanRemove="true" arrayCanMove="true" arrayCanEdit="true" displayNameHeader="" fullDisplayName="" isCompositeKey="false" isMandatory="false" isUserLocked="false" isEditLocked="false" isGrouped="false" isSearchable="false" isUniqueGlobal="false"/>
@@ -32,7 +36,9 @@
   <example/>
   <command name="IMPORT">
     <parser>
-      <section/>
+      <section>
+        <regexp>@^\s \s*$@</regexp>
+      </section>
       <lines/>
     </parser>
   </command>
