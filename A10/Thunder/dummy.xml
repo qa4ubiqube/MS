@@ -43,10 +43,18 @@
       <lines/>
     </parser>
   </command>
-  <command name="CREATE"/>
-  <command name="READ"/>
-  <command name="UPDATE"/>
+  <command name="CREATE">
+    <operation><![CDATA[  ]]></operation>
+  </command>
+  <command name="READ">
+    <output><![CDATA[   ]]></output>
+  </command>
+  <command name="UPDATE">
+    <operation><![CDATA[   ]]></operation>
+  </command>
   <command name="CONSTRAINT"/>
-  <command name="DELETE"/>
+  <command name="DELETE">
+    <operation><![CDATA[    ]]></operation>
+  </command>
   <command name="LIST"/>
 </ObjectDefinition>
