@@ -4,7 +4,7 @@
     <description></description>
     <displayField>object_id</displayField>
     <order>0</order>
-    <visibility>5</visibility>
+    <visibility>2</visibility>
     <wfConstraintsPath></wfConstraintsPath>
     <configType>cli</configType>
     <createTemplateId></createTemplateId>
