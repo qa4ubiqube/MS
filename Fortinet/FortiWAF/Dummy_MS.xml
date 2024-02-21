@@ -56,6 +56,8 @@
     <operation><![CDATA[ ]]></operation>
   </command>
   <command name="CONSTRAINT"/>
-  <command name="DELETE"/>
+  <command name="DELETE">
+    <operation><![CDATA[ ]]></operation>
+  </command>
   <command name="LIST"/>
 </ObjectDefinition>
